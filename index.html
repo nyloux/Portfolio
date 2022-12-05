@@ -1,0 +1,300 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <title>Nyl Sahbi | Web Developer</title>
+
+    <link rel="shortcut icon" href="assets/logo-n.png" type="image/x-icon" />
+    <link rel="stylesheet" href="main.css" />
+    <link rel="stylesheet" href="mediascreen.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css"
+      integrity="sha512-MV7K8+y+gLIBoVD59lQIYicR65iaqukzvf/nwasF0nqhPay5w/9lJmVM2hMDcnK1OnMGCdVK+iQrJ7lzPJQd1w=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+
+    <script
+      type="text/javascript"
+      src="https://cdn.jsdelivr.net/npm/@emailjs/browser@3/dist/email.min.js"
+    ></script>
+    <script type="text/javascript">
+      (function () {
+        emailjs.init("-c8wuknWHNIN5xwOr");
+      })();
+    </script>
+  </head>
+  <body>
+    <nav>
+      <div class="logo">
+        <h2>
+          <span class="blur">S</span><span class="blur">ahbi</span>
+          <span class="blur">N</span><span class="blur">yl</span>
+        </h2>
+      </div>
+      <ul class="nav-items gg cc ff">
+        <li class="items">
+          <a class="atems" href="#home" onclick="itemsClick(this)"
+            ><h3>Home</h3>
+            <i class="fa-solid fa-house-user items-icon"></i
+          ></a>
+        </li>
+        <li class="items" onclick="itemsClick(this)">
+          <a class="atems" href="#about"
+            ><h3>About</h3>
+            <i class="fa-solid fa-person-circle-question items-icon"></i
+          ></a>
+        </li>
+        <li class="items" onclick="itemsClick(this)">
+          <a class="atems" href="#parcours"
+            ><h3>Parcours</h3>
+            <i class="fa-solid fa-laptop-code items-icon"></i
+          ></a>
+        </li>
+        <li class="items" onclick="itemsClick(this)">
+          <a class="atems" href="#contact-me"
+            ><h3>Contact-me</h3>
+            <i class="fa-solid fa-envelope items-icon"></i>
+          </a>
+        </li>
+      </ul>
+      <div class="menu" onclick="myFunction(this)">
+        <div class="bar first"></div>
+        <div class="bar second"></div>
+        <div class="bar thirst"></div>
+      </div>
+    </nav>
+
+    <section id="home" class="home">
+      <div class="home-img">
+        <img src="assets/otel.jpg" alt="Picture of me" />
+      </div>
+      <div class="home-text">
+        <h1>Hi,</h1>
+        <h1>
+          I am
+          <span style="text-decoration: underline" class="surlign blur"
+            >Sahbi Nyl</span
+          >,
+        </h1>
+        <h1>
+          A front-end
+          <span class="surlign">web developer</span>.
+        </h1>
+      </div>
+    </section>
+    <section id="about" class="about">
+      <div class="about-text">
+        <div class="first-p">
+          <h1
+            style="
+              font-size: 40px;
+              text-align: center;
+              text-decoration: underline;
+            "
+            class="surlign blur"
+          >
+            Who I am ?
+          </h1>
+          <p>
+            &ensp;I introduce myself, I'm 15 years old, I'm in the second year
+            of high school, I sometimes like to read or play video games, but my
+            first passion is <span class="surlign"> programming</span> and<span
+              class="surlign"
+            >
+              coding</span
+            >.
+          </p>
+          <p>
+            That's why I joined the web development track at
+            <span class="gmc">GOMYCODE</span>.
+          </p>
+          <p>
+            Besides, if you are also interested or have questions about web
+            development, contact me on
+            <span class="surlign"
+              ><a href="#contact-me">social networks</a></span
+            >
+            or by
+            <span class="surlign">
+              <a href="mailto:sahbinil11@gmai.com" target="_blank"
+                >email</a
+              ></span
+            >.
+          </p>
+        </div>
+      </div>
+      <div class="about-img">
+        <img src="assets/gmc.jpg" alt="gmc" />
+      </div>
+    </section>
+    <section id="parcours" class="parcours">
+      <div class="parcours-img">
+        <img src="assets/fen.jpg" alt="" />
+      </div>
+      <div class="parcours-text">
+        <h1
+          style="
+            font-size: 40px;
+            text-align: center;
+            text-decoration: underline;
+          "
+          class="surlign blur"
+        >
+          Parcours
+        </h1>
+        <p>
+          &ensp;It all started when I came across a post from
+          <span style="text-decoration: underline" class="gmc"
+            ><a
+              href="https://www.instagram.com/gomycode.algeria/"
+              target="_blank"
+              >@gomycode.algeria</a
+            ></span
+          >
+          on instagram, she announced a open days (GOMYCODE organizes open days
+          for people who are interested in their training and who want to know
+          more) it was my case, so I went to attend this day, I had inquired
+          about practically all the training, and there is one particularly that
+          interested me, it was that of the
+          <span class="surlign">Web Developement</span>, I decided to
+          <span class="surlign">register</span>. The counselor had me said a
+          session was going to start next week, it was falling good because I
+          couldn't wait to get started !
+        </p>
+        <p>
+          &ensp;So I started by <span class="surlign">learning</span> web
+          development, more precisely the front-end, it's the part of the site
+          visible to users. The <span class="surlign">front-end</span> is a
+          combination of&ensp;
+          <span class="html">HTML <i class="fa-brands fa-html5"></i></span> ,
+          <span class="css">
+            CSS <i class="fa-brands fa-css3-alt fa-css3"></i
+          ></span>
+          et <span class="js"> JS <i class="fa-brands fa-js"></i></span>.
+        </p>
+      </div>
+    </section>
+    <section id="contact-me" class="contact-me">
+      <div class="contact-me-title">
+        <h1
+          style="
+            font-size: 40px;
+            text-align: center;
+            text-decoration: underline;
+          "
+          class="surlign blur"
+        >
+          Contact-me
+        </h1>
+      </div>
+      <div class="contact-me-others">
+        <div class="social-network">
+          <div class="sn3">
+            <div class="social-item">
+              <a href="https://www.facebook.com/nyl.sahbi/" target="_blank"
+                ><i class="fa-brands fa-facebook-f social-icon"></i
+              ></a>
+            </div>
+            <div class="social-item">
+              <a
+                href="https://instagram.com/nyloux?igshid=YmMyMTA2M2Y="
+                target="_blank"
+                ><i class="fa-brands fa-instagram social-icon"></i
+              ></a>
+            </div>
+            <div class="social-item social-item-s">
+              <a
+                href="https://www.snapchat.com/add/nyl.shb?share_id=QTY2RUJBOEEtNTZGMi00MkJCLTlCNjUtN0Y5MzY4QzBBRUQy&locale=fr_DZ"
+                target="_blank"
+                ><i class="fa-brands fa-snapchat social-icon"></i
+              ></a>
+            </div>
+          </div>
+          <div class="sn3">
+            <div class="social-item">
+              <a
+                href="https://www.tiktok.com/@nyloux_?_t=8WrdsPn3jYz&_r=1"
+                target="_blank"
+                ><i class="fa-brands fa-tiktok social-icon"></i
+              ></a>
+            </div>
+            <div class="social-item">
+              <a href="https://twitter.com/nyloux" target="_blank"
+                ><i class="fa-brands fa-twitter social-icon"></i
+              ></a>
+            </div>
+            <div class="social-item">
+              <a href="https://discord.gg/JPcn5HpYNA" target="_blank"
+                ><i class="fa-brands fa-discord social-icon"></i
+              ></a>
+            </div>
+          </div>
+        </div>
+
+        <div class="container">
+          <div class="form-group">
+            <h5 for="name">Name:</h5>
+            <input
+              type="text"
+              class="form-control"
+              id="name"
+              class="name"
+              placeholder="Enter your name."
+            />
+          </div>
+          <div class="form-group">
+            <h5 for="email">Email:</h5>
+            <input
+              type="email"
+              class="form-control"
+              id="email"
+              placeholder="Enter your email."
+            />
+          </div>
+          <div class="form-group">
+            <h5 for="message">Message:</h5>
+            <textarea
+              class="form-control"
+              id="message"
+              rows="3"
+              placeholder="Enter your message."
+            ></textarea>
+          </div>
+          <button class="btn" type="submit" onclick="sendMail()">
+            Submit<i
+              class="fa-solid fa-paper-plane"
+              style="margin-left: 5px; font-size: 15px"
+            ></i>
+          </button>
+        </div>
+      </div>
+    </section>
+    <footer>
+      <img src="assets/favicon.jpg" alt="logo" class="favicon" />
+      <h4>© 2022 Nyloux. &ensp;&ensp;&ensp;&ensp; All rights reserved.</h4>
+    </footer>
+    <div class="modal">
+      <iframe
+        src="https://discord.com/widget?id=1035246712652042240&theme=dark"
+        width="350"
+        height="500"
+        allowtransparency="true"
+        frameborder="0"
+        sandbox="allow-popups allow-popups-to-escape-sandbox allow-same-origin allow-scripts"
+      ></iframe>
+    </div>
+    <div class="scroll_to_top" onclick="myServdisc(this)">
+      <div class="servdisc">
+        <div class="discord-logo">
+          <i class="fa-brands fa-discord disc"></i>
+        </div>
+      </div>
+    </div>
+    <script src="script.js"></script>
+  </body>
+</html>

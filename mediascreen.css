@@ -1,0 +1,153 @@
+@media screen and (max-width: 760px) {
+  h1 {
+    text-align: center;
+  }
+  nav {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    justify-content: space-around;
+  }
+  .logo {
+    margin-left: 0;
+  }
+  .menu {
+    display: block;
+    transition: all 0.3s;
+  }
+  .menu:hover {
+    transform: scale(1.1);
+  }
+  .menu:hover .bar {
+    background-color: rgb(255, 208, 52);
+  }
+  .nav-items {
+    flex-direction: column;
+    position: fixed;
+    background-color: rgba(0, 0, 0, 0.9);
+    height: calc(0vh - 0px);
+    margin-right: 0;
+    top: 50px;
+    width: 0%;
+    height: 0%;
+    justify-content: space-around;
+    align-items: center;
+    transform: translateX(100%);
+    transition: 0.5% ease-in-out;
+    overflow: hidden;
+  }
+  .nav-active {
+    transition: all 0.7s ease;
+    transform: translateX(0%);
+    height: 60vh;
+    width: 100%;
+    border-bottom-left-radius: 20px;
+    border-bottom-right-radius: 20px;
+  }
+  .home {
+    width: 100%;
+    height: 80vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-evenly;
+  }
+  .home-text {
+    text-align: center;
+  }
+  .home-img img {
+    width: 200px;
+    height: 200px;
+  }
+  .home-img {
+    width: 200px;
+    height: 200px;
+  }
+  .about {
+    height: fit-content;
+    display: flex;
+    flex-direction: column-reverse;
+    align-items: center;
+    justify-content: space-around;
+  }
+  .about-text {
+    width: 100%;
+    text-align: center;
+  }
+  .about-img {
+    margin-right: 0;
+    width: 200px;
+    height: 200px;
+    margin-top: 50px;
+  }
+  .about-img img {
+    width: 200px;
+    height: 200px;
+  }
+  .parcours {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+  }
+  .parcours-text {
+    width: 100%;
+    text-align: center;
+  }
+  .parcours-img {
+    width: 200px;
+    height: 200px;
+    margin-top: 50px;
+    margin-bottom: 50px;
+  }
+  .parcours-img img {
+    width: 200px;
+    height: 200px;
+  }
+  .contact-me {
+    display: flex;
+    flex-direction: column;
+  }
+  .contact-me-others {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  .social-network {
+    margin-top: 20px;
+    margin-left: 0;
+    width: 100%;
+    height: 100px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+  }
+  .sn3 {
+    width: 60%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+  }
+  .social-item {
+    margin-right: 0;
+  }
+  .container {
+    width: 100%;
+    margin-left: 0;
+  }
+  input,
+  textarea {
+    width: 100%;
+    padding: 10px;
+  }
+  .form-group {
+    margin: 40px;
+  }
+  button[type="submit"] {
+    margin-top: 0px;
+    margin-left: 70px;
+    margin-bottom: 20px;
+  }
+}
