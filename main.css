@@ -402,7 +402,7 @@ textarea {
   background-color: rgba(128, 128, 128, 0.2);
 }
 
-input[type="text"]:focus,
+input[type="name"]:focus,
 input[type="email"]:focus,
 textarea:focus {
   border-bottom: 2px solid rgb(255, 208, 52, 0.7);
