@@ -114,21 +114,28 @@
     flex-direction: column;
     align-items: center;
   }
+  .partsn {
+    width: 100%;
+    display: flex;
+    flex-direction: row-reverse;
+    align-items: center;
+  }
+  .ctc-img {
+    margin-top: 10px;
+    width: 200px;
+    height: 200px;
+    margin-right: 20px;
+  }
+  .ctc-img img {
+    width: 200px;
+    height: 200px;
+  }
   .social-network {
     margin-top: 20px;
     margin-left: 0;
-    width: 100%;
-    height: 100px;
-    display: flex;
-    flex-direction: column;
-    justify-content: space-between;
-    align-items: center;
-  }
-  .sn3 {
-    width: 60%;
+    height: 200px;
     display: flex;
     flex-direction: row;
-    justify-content: space-evenly;
   }
   .social-item {
     margin-right: 0;
