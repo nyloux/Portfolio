@@ -110,6 +110,9 @@ footer {
 .atems:hover {
   transform: scale(1.1);
 }
+.atems:hover h3 {
+  text-decoration: underline #ffd034;
+}
 .atems h3,
 .atems i {
   transition: 0.3s;
@@ -373,6 +376,26 @@ a {
 }
 .social-icon {
   font-size: 20px;
+}
+.partsn {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+.ctc-img img {
+  border: 3px solid gray;
+  border-radius: 40px;
+  width: 300px;
+  height: 350px;
+  object-fit: cover;
+  object-position: center;
+}
+.ctc-img {
+  width: 300px;
+  height: 300px;
+  border-radius: 40px;
+  -webkit-box-shadow: 0px 0px 25px 9px rgba(97, 97, 97, 0.5);
+  box-shadow: 0px 0px 25px 9px rgba(97, 97, 97, 0.5);
 }
 .container {
   width: 100%;
